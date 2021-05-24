@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); font-size: 28px;" class="pb-4">⚔
+            Артефакты. Вещи
+            Древних.</h1>
+
+        <section>
+            <h2><span style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); ">Оглавление</span></h2>
+
+            <ol>
+                <li><a href="#Artefact_0"><span
+                            style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); font-size: 16px;">
+                            Основные нюансы</span></a></li>
+                <li><a href="#Artefact_1"><span
+                            style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); font-size: 16px;">
+                            Вещи силы Древних</span></a></li>
+                <li><a href="#Artefact_2"><span
+                            style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); font-size: 16px;">
+                            Вещи Древних</span></a></li>
+                <li><a href="#Artefact_3"><span
+                            style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); font-size: 16px;">
+                            Артефакты (Кристаллы)</span></a></li>
+            </ol>
+
+
+        </section>
+
+        <h3><a name="Artefact_1"><span style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); ">1.
+                    Основные
+                    нюансы</span></a></h3>
+        <ul class="list-unstyled list-group  " style="max-width: 550px;">
+            <li class="list-group-item list-group-item-warning">
+                <p style="font-family: Roboto; font-size: 16px;">Владельцы артефактов получают дополнительный бонус к
+                    опыту - 25%
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-warning">
+                <p style="font-family: Roboto; font-size: 16px;">Если передать артефакт другому персонажу, то он не
+                    сможет его одеть.
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-warning">
+                <p style="font-family: Roboto; font-size: 16px;">Владельцы артефактов получают дополнительный бонус к
+                    опыту - 25%
+                </p>
+            </li>
+        </ul>
+
+        <h3><a name="Artefact_1"><span style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); ">2. Вещи
+                    силы
+                    Древних</span></a></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+            <div class="col">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div class="card-img-top pt-4 text-center">
+                                <img
+                                    src="data:image/png;base64,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" />
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <h5 class="card-title">Шлем Силы Древних</h5>
+                                <p class="card-text">Требуемый Уровень: 3</p>
+                                <dl class="row">
+                                    <dt class="col-sm-7">Ловкость:</dt>
+                                    <dd class="col-sm-5">+13</dd>
+                                    <dt class="col-sm-7">Оберег удачи:</dt>
+                                    <dd class="col-sm-5">+30%</dd>
+                                    <dt class="col-sm-7">Оберег ответа:</dt>
+                                    <dd class="col-sm-5">+20%</dd>
+                                    <dt class="col-sm-7">Оберег крита:</dt>
+                                    <dd class="col-sm-5">+65%</dd>
+                                    <dt class="col-sm-7">Оберег уворота:</dt>
+                                    <dd class="col-sm-5">+30%</dd>
+                                    <dt class="col-sm-7">Броня головы:</dt>
+                                    <dd class="col-sm-5">+40</dd>
+                                </dl>
+                                <dl class="row">
+                                    <dt class="col-sm-7">Цена в магазине</dt>
+                                    <dd class="col-sm-5" style="font-weight: bold; color: blue;">
+                                        1 250 син. ст.</dd>
+                                </dl>
+                            </div>
+
+                            <div class="card-footer text-muted">
+                                <ul class="list-unstyled">
+                                    <li class="" style="font-size: 14px; color: gray">
+                                        Дополнительный бонус к опыту +25%</li>
+                                    <li class="" style="font-size: 14px; color: gray">Использовать может только хозяин
+                                        артефакта</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div class="card-img-top pt-4 text-center">
+                                <img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABLCAYAAAAyEtS4AAARWUlEQVRoBdXabZCWVRkH8G2qcbIGKwzMlZKXVUBBBCRZTAxwkGWByhXL3cwREV+GzBB8zVZDhoSsSQExp9AkK6w+oOLgZJmmzViUZY7Vh7JXbUqnmCbT2NP8rt3r8Y6AZXmWmHbm7Lmf5zn3Odf/+l9v59x3Q8Ne/u341yvlplU3Fn97eUtdw2Kh/bHWyy+/XNrf3xrzb//bX4tWl6S93Pzkth/sH6URfOrkiTH5+nVry3e/tXX/LNTQ0EBp13V21uaPi/5i57fPPltGDTus3HPn7eX8jrayZdPG2kK9KLfPP1OUln/ff+yR/lvroa33l8PfcnBpnT4pTGzjLSv6b/IKVL540GtfU9K0KDCvK8P6dlm6dhQ0MysAjhg0oIwYMjCALF+2qPzjL3/oVzAmW/bRxQEEIH8CjPX99Ul6E9DA+tWfLIvmnVzap48qLaMPLac0DSynjGwMMKfPaC7nz58ZZtbnBfYgjXWxofnjhxFgunbE5z3c+upPRj7z9M/K6dPGlyEDXlfeenB3cz30rQeV0YMOLhOOeGP0k44dVmZNGh1gsPbqLA0NsWLPv+r3vV1XQWB+y5olZcpx7wynf/7nPyq/2vbw3oHZuvnrNW3QCCAAjB96aJkxalA01wCNe8ebA9T0owaUr63+WPnlz7YFO/wGk/oHH/h82bxxXTEv/+KwFPXCX/4c5poKIJ3fk4lUYH42x6OrFpZzTxhUHrv9yj2D4VB5I4ce/rY3hcCAaCMPPaiMffsbogGS7GCoddwRZeV5M8L0chyA7z1+UPzWNmVE0c48oTG+o5QxRw+JyCcypU+k4sxhfZ/JQvi1Z40py9uOLctbjymPb9pNUgaRqeREqZFqn+a1c2/RBDV7zOHhS0CceOSAkr0xPuur95s/mU8l6lORCWblWc3lsmlNoQRrzDry9RFkmGrQk0GAQ+08YYKwMAGY0tSRg0Ig18FK4yE1hozTFkwbUTZfeVK5YvawGIsVrJlDb0zOrffZ99hOML7nIwDpMbhwyvBg9EPNw0JZyy9qK0wz/8L/3JCT7KrPBQkvcmUEax4+sMwY01iamwaHICkkE9pwznE1U8JMCkvgHJeAmK7f9bm+xDvisO5QjwX+0XlGc1l86rEFmI5xby7C/4vP/frVQJM3V/tcxKLpJ3lNGH5B24ABxHQwlWP9fuHso2LRNDG/uZdCMKSlkqqfyZHKZfJf/MT5AQCQ86YdWy6aOiJMjYlFUs6oCXkKUQVD8NGNh4S2RCvCEsSihAKA9jXXGgCnNx9Tph03tMyZMjpMjUbN73eCmwMDAJkn2UhgAgE5jAUiTKhre/nq5fPL2adOKJ9sPz7AcHygamE5bzKRBXPiKgMSISH1BMoxBGmb+M6ypGVs9OyZ1ha1TIwAMq6p2/QAu23p/LL8gtnhawlCb64EZ5x7yHT/hhXlpV/c2+0GXTtK19+fi+i34SPzwtQ+++F3RRTDzAu/eaY0KDmqTNCEybXUvgWZETAagQECBGCBAPUAzJk4NBjBImc1H9Zp89lv3xThNCOS+4HANl9rHtUNwvjyu/tK6dqe/hxFKqVhBhMbF59arnvfhJDzirOmlQYliSQVZcm6tVFTWZydYsgiGjAWBcSETAY4YIEBrLP95GJStu1+guqBYmovPnF32XpDe4yLQDGqscw5cWiABI5CmfPlZzSHwH/c8qmy408/CfOKLL+gtaxZ/N5Q2hO3XBLX5lky94RXnT5LCCpQqBFO9Dh+9JDQMAAiFqYAA0ZLZoAnsLgPEGYwxFx8T+PKDqbB/AA+u3VqmT5pVI0JQAACzv3MUU1nno6TR5anvnxNzK2aeOV7XypP3feFUOzGGxb/NxCAZNy5Q98S8VvIUzzOnzU9NEcIoIDBCjCYo3lgMCfT0+YJTYO7TWvIwBCQ8DR6/9Xt5RvXnl2rqFMJfBAYnzXrUoLvMEoR/Cz+uraXrmefiGATPpJMVHtlwzUzjymr5h1fNi46qTx67ellVcd7yqUdc0NDNI5OYFBLACaBxVz0psVz4joBEoyfXDNnTJjNT9cvC0HTj8zxmQUzQuPJjPVU2gkOmEiGPZ4DCFmybqtiiOvbb15d7rt4agAA4ulbPhzXHCzAdLR122r7yeEHfAEQQlt0xvhhIXRqFkAOzEQwyvzY+I0LWyIguMccfsOW78133YLWaOZJMFi697YbQnimdc/NVwWs/wLhC0BeuPP8Ur63vJRn1kb/z01Ly5arWoKB2I90tMUiFmdOBElGaB5jCYTpYY4TG79s5pgQ+L5PLayFW2P5ER/CFtMzh+CgB0QTZfmOe0Ww/8juO6NRipc/2jM/3hMCHyyACLE0RTDxHiAOyxEFAo3/0JhSAjDBQK3UPunIyNCA8DsC/+6ua2PjlkJydGv4Hhg+oYRnchg1TsK0F/rBHdeHs6NjZ/lrn++4bU03I+XBbiBdO8IUaN1iJiWkiGQHp+5ZckFbAKIpLc2po2VIgAAEODkAkFsXnVb+sXlVAEogTFNlAMTz96yM3jV/u3Xl0gBCNgcgwr6tdk3oXV187St3h5OX5+8qpTwV5sVcALEYMHrsMAesYLHzkgXhB0K00H35Oe8pF84ZGdENECCYlUpA8BBCCZq+FeY1qjFMpjy0PsCsv3ROgF234oIIy6s7LwqfCKvZExuA2c0xh+fWLgyTYg7JBk1buAZk+MDYHgPjmIi/0PApk48uq6+YWxa2dAPBBjP76LyhEQ3Zd/nJN0PYzOiACNlAlm0bIm9cOG9g+NOnLz61/P7pTVG67NGcqszYkqJfxCIAwdKkkg2LMjHCcUAMLPjg1PLYA6sCgOsvfubSsvKSyWFa2OA/BFu/aHLYvloKKxSV5iVviG7ykJLmziunh1lf2DYumMjSpSrvbq9tfW1PORkGqibF0YEBJFlRPtCkvnPxaYUZ3H3HirJ+Q2d54K6rCz/BDE2bd8utLSEorfOTBJLKYcacGRhjv3PzB8qvfrwmgs/v710WZctuha/+oPaiIQCYSrSeaJX5IoFgJcOrsgIYQmPkonNb4hCCELTLaZfMHxeCCe2ik7yhJMni1bxYEXL5z8bOs4JVe3Vz2IFKhFV5d3uNQ+e8wBDcxFqY0WHdFa2MnC1MrGlwCCQZMjMstE4fG2CwojkjA0Q+kmQdLEiw1pDoMGFNYCgHGGM1hw/utfvsNVpVkam30m6VIpoFfQcADWo1MEMGRjiOgu/E7lKeE0uE2nkzm8I3+IemBFdeKBopQg0mZ7hOMO7nq2vbT4xmMyWp7rWzA1Q9MEtAen5B45rkpE9AeovLL8yMPwgWEiaBNP5A+2qryeNHRMlPeBn8oetPC+YpBysa5dnv2DIwdTmkqvBer523VgEkCIskCIJoACUzgLomnEaQbMyFMM6RbQ9UB6uXfzzAKDsUlO6hhI7WCfF7AtKTgf/2Knx1APpy/2yCEK4nzPre5kmumDl13H+AASQXd18KoM/53CNDC8cytj1H7DqbBkdExBb2lP1AUYRIqf/Xyy/1Hcj1V19eYyV9gjC0iQkCvW/WxOgBMyaBAJEtgfnd/RjxfCXMrGVilDnCd7KIOaZkr8M0s/Gr3ZbsVRZ2vq6eyaYQQCQbQJwxpzkE8x2Twxww2dLMaNMYNZkNmXJGXcWnnB2r2WiduWWEBMZY7Cj9le19cvQEVD0TTr+ostHx/ilFo2EM+U0UEoJtgpiFRmDmwnyUMq6Zk2u/21MABoisLgyLdAkII8xsjyV7Cr2rHnoAmAhGCFoFIulpWAGENglhO5oFo2NUwspBAAJAYI8vmJdwagMlb5mb9lXGynzOz+QUoVmi7ErOXr8DJP1kZyDMSubWsJJODwxtcmQM0Go6q2slPzCEtG/59KVnxjh+xLyA9puML684iTeXum2fzCpRZj5h61VGsMDeNazI4qJYMgN4Oq97gSGQMOuoU/Wr/JDZHTMlEIqjAHtzueWHq+ZGRn/yka/XB0SUIEiGzzQtjABx7dKOGitVMMaJUExTFALixgUnhZb5BEElRuEXYPMLBvYbdoDuwY6KQGnifCuVu8+9Z978pBp6s44CREtmAJzx7tHBDHYIxzfUWQ62FZT8iHkxNb7ijABgkY6/MD8lUYThnn2NU8d9BpA3ZvRK8yIgYfkGAEr2O26/PrS5s89ghkBVX+HsySx/svcH2Lw2dA6vAVLqCBr33npxfWaVQMxiEfSnAPxB2OUfzGH9564KQK6B40PAGucePkMRerlDSFXdSnp8RJAguAMMJygOsbFof2Nn6C/lqau3/WVeTACoZIUpAcO8gLGpSr9ZekFL0TBH40AQWBEpwdm/S3gCAT/BnObRARbUW4CEo+dzkHpQ0IYDiWo+AYS2aT3BpPNjJUEQRA4IE2vqrngJyvEFAIJnVHONHQ+RlPgUYN9vDlVGPRji3gQBCIesOj1AWXOlz2AESz7rgcWkxnzyaRbBMYERpzH8SOJUmohYyQgwzJqv1gUmcwkgJmQiGVrT1KpgAMCSyKbPseEfPU+2CExwzp45xpGRTG7/IdIlECcozg7iLYh6fIVpmQQQjSloQGmumQ4wAkDmE6an8Yvwj55HcABgw8aL8MHI8IFx3uW0hWnZaZqHWTIzwK3leU5drFQ3WiZMUAkEGOxkpGJyDiJoVp+mRWhA+Ifn56JXmhgQngDY0ipTEozHbKJZvwDxllAVQM3MDhsQghGO1jM8p3OnWfmd2Sg/hFz5QtRKRuQWEeym+RPiSYDeeIw6fFA4ekZTdxhWQqfwAGkcn4bZOefUMGDxDLdphskCwVW4NkmewfAHY8zFfJyWPHzD1GDK954aq7es1y+RiyYslmDy4I5ZZAkSdVHL2Nh/2I8wpwQsOuUmSfglMPPChHnjDK3xkDAnCvE9hpmVUxfr1e0fnAsQ+2xATEpAvcM7GyUbIsUdIfMJL4AJ3Hga5+D2KEBlEsSo37DrO6Cw4TsHcl46kKPqNquMEiayASJUNmBoj9DqI6GSBmVujmxcgqF5DALvHuZmDF/JF2cSDCB+w5w54uWBekJvgsjeKUaaTILR0yIwNkoOnj17JCDBquOASRCcHgC+IlJlFMMAIJjDimchntz2GyMJ5pWXtkduwEaaWQorc9s8MQmsiFKEAiAZkbn5B8cHVsjVABKC3UMBzI+ClPQOHnL9fu0dlEl+4Sc9uYFz+kyLzAsrog67x4Lv4xBiTGOAcOAgXzgSFW7z/RJAhV73YMPbQV7h6FcA1cnkFo+yaQ0T9hVpdoQBhrnQLt/wHSBOVZiVXSK/isOGc44LVowHGBAsY8NBRL+bVRWIa1thOzxaJyQNppnJxvJFVrkKQ2OYDLNSeniLARDsYSZMa0xjLSRjwxtAO6+7Xz7TlmQVJUnPCUr6DoEJR8uiVDDXfExEJGblwalDBtkbIONFNWbqHg+b9ul0sR6kymxlhGjjvEpZAVBqGRCM2K/n5kqEcwrvZQRmhSUbKacp3pTzqmw9Mu3zvbIvv5EDJEZ+AVBo2r6j8oIawBKo6CYoqL88/PFuCbCi3/+cjSpyi6sC+Ajz4RNsPfOMx2iEpH0v4HjI4zMzsk/36Nl9fXoyVRWgP6/5jTdYJTdC0bay3N5EQel0hPAeyTloAMr5rkfcjoN2bLksXlboT5nqmsujbgkOGOaWmR4YDAmvwHqxwBGqU0hvbwsC+z3k9hWZrTJfEJ2EYif2DiiUM5hQfvxw8+fiVN4r5P76pdLtq6C9jbe7VB17kusRNSCqWWAcmfIZLw8AdsCiVG8g/E7D/EUA4BtyiajkdNIpuwzvTSAlvjpub+Y8oGOYCwDMS05x2uKzQz2AsObvgAq5t4t7uAOIRKkSSCAiFmff23kO+DiFph2hRKk+cxofrzBNHLrvj9YOBCqmI+GpfhWXDrT5Bpb+b8wqFSeKqbWU9rYAKua9epEsJ9hF/2+1WNAaIwcfYAAAAABJRU5ErkJggg==" />
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <h5 class="card-title">Броня Силы Древних</h5>
+                                <p class="card-text">Требуемый Уровень: 3</p>
+                                <dl class="row">
+                                    <dt class="col-sm-7">Злость:</dt>
+                                    <dd class="col-sm-5">+7</dd>
+                                    <dt class="col-sm-7">Удача:</dt>
+                                    <dd class="col-sm-5">+13</dd>
+                                    <dt class="col-sm-7">Оберег удачи:</dt>
+                                    <dd class="col-sm-5">+60%</dd>
+                                    <dt class="col-sm-7">Оберег ответа:</dt>
+                                    <dd class="col-sm-5">+25%</dd>
+                                    <dt class="col-sm-7">Оберег крита:</dt>
+                                    <dd class="col-sm-5">+20%</dd>
+                                    <dt class="col-sm-7">Броня корпуса:</dt>
+                                    <dd class="col-sm-5">+40</dd>
+                                </dl>
+                                <dl class="row">
+                                    <dt class="col-sm-7">Цена в магазине</dt>
+                                    <dd class="col-sm-5" style="font-weight: bold; color: blue;">
+                                        1 250 син. ст.</dd>
+                                </dl>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <ul class="list-unstyled">
+                                    <li class="" style="font-size: 14px; color: gray">
+                                        Дополнительный бонус к опыту +25%</li>
+                                    <li class="" style="font-size: 14px; color: gray">Использовать может только
+                                        хозяин
+                                        артефакта</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div class="card-img-top pt-4 text-center">
+                                <img
+                                    src="data:image/png;base64,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" />
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <h5 class="card-title">Щит Силы Древних</h5>
+                                <p class="card-text">Требуемый Уровень: 3</p>
+                                <dl class="row">
+                                    <dt class="col-sm-7">Реакция:</dt>
+                                    <dd class="col-sm-5">+13</dd>
+                                    <dt class="col-sm-7">Сложение:</dt>
+                                    <dd class="col-sm-5">+12</dd>
+                                    <dt class="col-sm-7">Оберег ответа:</dt>
+                                    <dd class="col-sm-5">+45%</dd>
+                                    <dt class="col-sm-7">Броня ног:</dt>
+                                    <dd class="col-sm-5">+40</dd>
+                                    <dt class="col-sm-7">Броня левой руки:</dt>
+                                    <dd class="col-sm-5">+40</dd>
+                                    <dt class="col-sm-7">Броня правой руки:</dt>
+                                    <dd class="col-sm-5">+40</dd>
+                                    <dt class="col-sm-7">Урон:</dt>
+                                    <dd class="col-sm-5">0-0</dd>
+                                </dl>
+                                <dl class="row">
+                                    <dt class="col-sm-7">Цена в магазине</dt>
+                                    <dd class="col-sm-5" style="font-weight: bold; color: blue;">
+                                        1 250 син. ст.</dd>
+                                </dl>
+
+
+                            </div>
+                            <div class="card-footer text-muted">
+                                <ul class="list-unstyled">
+                                    <li class="" style="font-size: 14px; color: gray">
+                                        Дополнительный бонус к опыту +25%</li>
+                                    <li class="" style="font-size: 14px; color: gray">Использовать может только
+                                        хозяин
+                                        артефакта</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div class="card-img-top pt-4 text-center">
+                                <img
+                                    src="data:image/png;base64,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" />
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <h5 class="card-title">Шлем Силы Древних</h5>
+                                <ul class="card-text list-unstyled ">
+                                    <li class="">Ловкость: +13</li>
+                                    <li class="">Оберег удачи: +30%</li>
+                                    <li class="">Оберег ответа: +20%</li>
+                                    <li class="">Оберег крита: +65%</li>
+                                    <li class="">Оберег уворота: +30%</li>
+                                    <li class="">Броня головы: +40</li>
+                                </ul>
+                                <div class="card-footer text-muted">
+                                    <ul class=" list-unstyled">
+                                        <li class=""><span style="font-size: 14px; color: gray">Владелец артефакта
+                                                получает
+                                                дополнительный бонус к
+                                                опыту - 25%</span></li>
+                                        <li class=""><span style="font-size: 14px; color: gray">Если передать
+                                                артефакт другому, то он его
+                                                не
+                                                сможет одеть</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="table-responsive">
+            <table class="table align-middle table-hover"
+                style="font-family: Roboto; color: rgb(24, 50, 68); font-size: 16px; border-collapse: collapse; "
+                cellpadding="10" border="1">
+
+
+                <tbody>
+                    <thead class="table-dark text-center"
+                        style="font-weight: bold; background: rgb(24, 50, 68); color: white;">
+                        <!-- <tr style="font-weight: bold; background: rgb(24, 50, 68); color: white;" align="center"> -->
+                        <td style="width: 15%; border-width: 1px; border-style: solid;">Изображение</td>
+                        <td style="width: 30%; border-width: 1px; border-style: solid;">Описание</td>
+                        <td style="width: 15%; border-width: 1px; border-style: solid;">Стоимость</td>
+                        <!-- </tr> -->
+                    </thead>
+
+                    <tr style="height: 22px;">
+                        <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;"
+                            align="center">
+                            <img
+                                src="data:image/png;base64,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" />
+                            <br />
+                        </td>
+                        <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <span style="font-weight:bold;">Шлем Силы Древних</span>
+                                <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень:
+                                    3</span>
+                            </p>
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <br /> Ловкость: +13
+                                <br /> Оберег удачи: +30%
+                                <br /> Оберег ответа: +20%
+                                <br /> Оберег крита: +65%
+                                <br /> Оберег уворота: +30%
+                                <br /> Броня головы: +40
+                                <br />
+                                <br /><span style="font-size: 14px; color: gray">Владелец артефакта получает
+                                    дополнительный бонус к
+                                    опыту - 25%</span>
+                                <br />
+                                <span style="font-size: 14px; color: gray">Если передать артефакт другому, то он его
+                                    не
+                                    сможет одеть</span>
+                            </p>
+                        </td>
+                        <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                            <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                                <br /><span style="font-weight:bold; color: blue">1 250 син. ст.</span>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr style="height: 22px;">
+                        <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;"
+                            align="center">
+                            <img
+                                src="data:image/png;base64,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" />
+                            <br />
+                        </td>
+                        <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <span style="font-weight:bold;">Броня Силы Древних</span>
+                                <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень:
+                                    3</span>
+                            </p>
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <br /> Злость: +7
+                                <br /> Удача: +13
+                                <br /> Оберег удачи: +60%
+                                <br /> Оберег ответа: +25%
+                                <br /> Оберег крита: +25%
+                                <br /> Броня корпуса: +40
+                                <br />
+                                <br /><span style="font-size: 14px; color: gray">Владелец артефакта получает
+                                    дополнительный бонус к
+                                    опыту - 25%</span>
+                                <br />
+                                <span style="font-size: 14px; color: gray">Если передать артефакт другому, то он его
+                                    не
+                                    сможет одеть</span>
+                            </p>
+                        </td>
+                        <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                            <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                                <br /><span style="font-weight:bold; color: blue">1 250 син. ст.</span>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr style="height: 22px;">
+                        <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;"
+                            align="center">
+                            <img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAyCAYAAAAUYybjAAAMmklEQVRoBeXbeYyV1RnHcf9p07RJTdMmtcE/qK1rKagZl1I3oCijExYVFIFawVq0bi244IIrguKCihpQcURwwLIE2ZQBqoiUcUOCskZbFI2AoqAUSmGe5vNMXkIbEjTjlcv0TQ7vnXe793zf37Odc9hvv724bdu2LZYsWRwTJzwTw4YOidtuvj7uGnRjfh5b/XjMnV0bS958IzZ8vD521NfHXvype++rQZowviYu7Nk1Bt1+S0J5//33Y8u/tsfq95bHli82hG39+nXh+KJFrzWAW7I4tm7d8v8D7dMNG6JTZfu48bqrYuNnDVDWrl0b69auidj2+U5QSWuXfzZvWhcfrXk3pk6qSbVt3769aUOjimNbHRbVjz8S76x4OxYumJedX7Tgqdi+flpE/fyGFosjsq2K2LI4/rGi4boEGpGwPIN57j37KOE38zkUNWzIbamXEY8+GhPH3x/bP5nYAKZ+fix/a3Ksentmwln3wasRsSobkGtefThmP1sdL8+bnfcz0YfuHRzLlr7Z9IBx4Gd1rsqOLlhYF7Nnjor497iEsWPHlvRNd9/SP04/4ajo1aVdzJoxOX2Wc599vKwBXP38eH3u8FTm6tWr02TBf71uQdMBtnzZ0jji4ObBX+nkpAnVCWrl4odj3NPV8ehDQ+LNN+anI2995GHRrVOHhCUycvCPPfJADLr+8lQcta1ZVhPDhw5IaGACJmqW0DC+mUdzxC0P/3lMnzIpw3/NuJrY9OHobMC0a9smbrj2sjw/dOgd0fq4ijzW96LemUqA6XPbiiOi82+Oj6cfG5Iq27hqTNx6Td+gUiZ+yQXdQ6D4ZnpVgm9hc5dfenE2PmbkiIeDM4/6J+Lsyor4zre+HT/c//sJCJBzz+2WqYTrWv3yF9G/f7+8x7lTTvxVgHvUwc3ipn59MhAAJqouW/5OvLNyRaYi+2yUlEu1rmiRfmr+S/PS3PipgX8+PUEd0vzAhHX4oYdGp6oO0bvP+QkLgAN+9IO4ceAN4b5ZM2YkOMDAOujAA+KKPl0S2FsLH0kFSkM4fCZbgvde2kfyIWAwDX6HOQE1ZXS/BMQ0f/bT5vn5mKNbpro6nHJsnN6+baoKkKp2J6SiHOt69pnZTj6uVcIC895bL05g40cMTGAiI38HXGl79zU+nUPXWcDkVk+OHZM+auXCgQmQkgpAXasafBYHzrz6nNUm2v366DiqxSHRo1PbPCYAyPalHpUdTk2AYFFZ3bz7ov6DJ9KvLVm6LJ0+h/81dqd0jxLtgOJ4QdNR0evjVUMzIQWKYi7sXpkgmM78v07P6wBjXlIHoK69tFe2AuS858fndVf+/pygMP6O7ysUO2r0U+m7Onc4Kf65+YvyBrZp08Zo9pMfx7RpU9NPDX9wWL752DgyOrRpmec47jPaHhsUBQoQ8itgdPJ33TtmWgCI810rT8gm8s0YNzIjoGtdJx0B7IUpN6W61JkK8wH9L83oWjpJNPLJ6LRvc2IAZPvLpMk7I98FXVtnpyiOrwLMnrlRGEjgAUAxAPrbcebnmL/79uqc6QPVAcmUwepRdUyqi+/yvQKLVMLWyG6V5vbq6lHpnCWJtXPmxrznH8sU4bo/nJodojiwqEHzGQRAMiVocUhCdJ0IymdpgNirKZkvwAKB5hzwAsnqRbfF0rl3xz33DcsE17Vl6eg5cT/YGNSLc6Y2ZOj1T8T04T1j/+99N6MeCNSkuVYDhUmCIenksCnFZ+f9fVLLg/JzoUT3aKCBVTNmREZaUTY+uj9N0DGKVKiXRhqNeKpciOM2iDdoyF2hjImND6ZqQJIi2FMSODpOWYWCRDZQwCmAprIObhZnntwqcy7XA+QZzFHzWfYviPyxT/v8Tv5P9JWrKZca0a3S3Hrd1f2yRJk8eULMnjMzNq56MP3VK3+rzTCvo4CAw99w2jpKGc7J5AsYVOU6ew1c94LN9Hp365BRVNR0jhl6GUDHe3dGbc3g9Ft8J1MsTY8b8VS5jww8nXpdbayYdllGLW+86IwO81UU4e3rLH8FAlCF2nwGRXLJFI1CgEZpnDxYAkD/vj3yOs/X3Pdp3dXx+owhqSw+lJ9rRLdKcyuFGH6Z9OzUWFI3JUYP6JhvGiDmWZghWFICoV8UBE6iSRWFgvgsqtPRVOORh6USRcoilfAMrVAWWKB7SZy8fIspChyl6XEjnurHgmUMCqyXh1bmm+bcC1g6Tj0g6bQGmnoPoEJZrqMmwNwPJF9FTeBm3lXVZmdqUUTEAtayF+8JqjIMVJawckTguIoY9sDdCWvH27dH1fHN0xeBpSMgMCUdZkpggMW0mBuV6BxAVAWevM21TC5Lnu6VeR0TLfIw1xbKWv1c3wBLAc65lyWsXj3OyR9M/gbxONprz2+bkAoT5FN0jDlJGHWEb+LwOXRqKiIipVGqGq/nGSdmvQiy8ay8p2vHhEVxoP6Xz5o7PE1QNu+5jTCY0tzqh/nRxtVfe6UuKEtSalKhgEVdrqEIsIqOAlgoj0Idz4BR2T7VBwTlMT+w7Ht07ZjQKNUzqZe5Ft/Ld4rQcq3S9LgRT5UyUE5Rmy2sGRBDLq9KUwDLOWYIig5SB2VpnD4laQYKgdKMmBrfMjTjGSJnAYvJFqDAdF4+RtEzpo7J2pTay3JsyyglGDr7xuLFMWPEVXFJ62bpfxzXmQIWlVADE+HsKcs5uRZl9ep13k5gRk6pxvWuLfwW9YGkOc/PeTkKdi+OsuRYZZnBm2EGQa6lLhQR3xrVI01DR8AqGiUVJinXojLKoyzQmKnRhUV1tenfnKMqPktE5MOALkBRHhW+9ORvc8zMiIdoKICYIGmEwZTmVtW9cXId4ORNwXvLd/Q+PhUDDgXoOKj+ti/yJkop1Ocag4DA8ENM1WdgBQPXguV5IM2dNT6Mc/FX5hy9LNGQXyvb9RHGySlDyDa8a2J0+cQL0kSoq4AFVNGoSGNmYFEdWCCAqRXDMcUeKKZbwGL6WURvHBkLF8zMQh4oRX1ppPE1PNXAn452qTotZj4/tWFi9L07o/dph+9UFyAFKNdSSaYRFS0SFGiOSRv4L6bEqXPoRXlUgALLs/g6LyU2P5equvmmq1N5ZT8tptLXAWNK4OmAjlAcdRWg7KkIHP4IYIpxTJSTdDrnGJ9WZO5F9Cz8H1BehqGZ7ZvfzaFsEbSsB/4KYX704Zp01JQhKkb9JzlsUviuwomDRVkFHApSI4LjuBKGCYpoQBWpAkjO24PPpymeLSjxcrIerGiRuV7xm8p2z9FLBnVo8F2Dc1jXaphdy5//VZiOFypS3lAWiMBRGJCuoU575ucZWu2o7jmc7Iu8HKpyzz4z0VpMWvA5IpOI5M2r2/gjMB8aeFGWQ8bOAaA0e/5IZ5kl8wSxUKFxfOsbLCgxVjVyUM9ULfVu+nxr1qXUKOcrWzXt7odZ18DkvGkTrDZLhnT23Veqc72CpUNSBDUkNYFFkdQFlr815ySclhtZn6WMMrWWywByDVdkxu7l8Jm23f2msj1WrMXSWfOCVvRZ6giOMD9t5nPZKZn2FT1Py1KFeUlqlUzWOEgfqIqiilkbN1nXYDQUPN9jztHUF9PdZ5dQWghCXUyP2VCYuT/mU0yXybbN/vBPwCp1HDNBC5r7Ja7KJ7UeE9fMExqy5qcc58/KsrT5KnJWpwnvFGMEQkoBGKXYlDXyJwoCRgGtVNGsb3Av07SmYex9V+aqPyUMVRndsLrZ+X0iVdgTOEAMk3jz53TrEhJGJkZZFFI7/LLMk4ByDYdOXXyP9EHEA0PqQV3KGoo1m5RruSpaZIpRlvODe4Kzu/P8iGRSpAJMNFS7WdpoXvGFga0TBp+jtlQYW/DGDK+5oksOURumXjl9eC7atX4CKIOFADepJZIAWplMIQUwCqMOHaUuMExyiJ6UZ/4RMFEvC+Q543ONlkVuzFmy6nlmiWy7e0n79LFnasamX+LIZfiipEUcVrsoVdbMGpTAXGfpkIi39e+1GUkB4uuoUsCQuSusy3ZUobFvigKYFtMR/eRSRiiEfv+zwsbhy79AUDrZ/JeU/n+6JKOebN44vXnEshyraiykXe/XecMnOkwhEkkmadpKwklp4NhEO8ktZ2+RLr/HT1HVPpel7wrhq3w2qqqkoQ6+R1ljTMp/M+HbJK82yyodB1SULGZ/mpxD3xM8oR4owPgeMzYAioScuE1WDpBMXs1IjYLCnp7dJM8DJpkETJYOmtyKmvgsQ8kG/qiKr2KiTRLEl+0UkxTpwKA0RTR1+Q9MZqGpSZYugf2yz2zy14l8xsw5c8oSEaUQFvPaygXAfwBDx3ImeB82vwAAAABJRU5ErkJggg==" />
+                            <br />
+                        </td>
+                        <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <span style="font-weight:bold;">Щит Силы Древних</span>
+                                <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень:
+                                    3</span>
+                            </p>
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <br /> Реакция: +13
+                                <br /> Сложение: +12
+                                <br /> Оберег ответа: +45%
+                                <br /> Броня ног: +40
+                                <br /> Броня левой руки: +40
+                                <br /> Броня правой руки: +40
+                                <br /> Урон 0-0
+                                <br />
+                                <br /><span style="font-size: 14px; color: gray">Владелец артефакта получает
+                                    дополнительный бонус к
+                                    опыту - 25%</span>
+                                <br />
+                                <span style="font-size: 14px; color: gray">Если передать артефакт другому, то он его
+                                    не
+                                    сможет одеть</span>
+                            </p>
+                        </td>
+                        <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                            <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                                <br /><span style="font-weight:bold; color: blue">1 250 син. ст.</span>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr style="height: 22px;">
+                        <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;"
+                            align="center">
+                            <img
+                                src="data:image/png;base64,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" />
+                            <br />
+                        </td>
+                        <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <span style="font-weight:bold;">Меч Силы Древних</span>
+                                <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень:
+                                    3</span>
+                            </p>
+                            <p
+                                style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                                <br /> Сила: +12
+                                <br /> Злость: +5
+                                <br /> Оберег уворота: +60%
+                                <br /> Урон 40-44
+                                <br />
+                                <br /><span style="font-size: 14px; color: gray">Дней между передачами: 20 </span>
+                            </p>
+                        </td>
+                        <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                            <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                                <br /><span style="font-weight:bold; color: blue">1 250 син. ст.</span>
+                            </p>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+
+        <h3><a name="Artefact_2"><span style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); ">3.
+                    Вещи
+                    Древних</span></a></h3>
+
+        <table class="table table-hover"
+            style="font-family: Roboto; color: rgb(24, 50, 68); font-size: 16px; border-collapse: collapse; width: 100%; width: 60%;"
+            cellpadding="10" border="1">
+
+
+            <tbody>
+                <tr style="font-weight: bold; background: rgb(24, 50, 68); color: white;" align="center">
+                    <td style="width: 15%; border-width: 1px; border-style: solid;">Изображение</td>
+                    <td style="width: 30%; border-width: 1px; border-style: solid;">Описание</td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;">Стоимость</td>
+                </tr>
+                <tr style="height: 22px;">
+                    <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;" align="center">
+                        <img alt="Шлем Древних"
+                            src="data:image/png;base64,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" />
+                        <br />
+                    </td>
+                    <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <span style="font-weight:bold;">Шлем Древних</span>
+                            <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень: 7</span>
+                        </p>
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <br /> Реакция: +25
+                            <br /> Злость: +25
+                            <br /> Сложение: +10
+                            <br /> Оберег удачи: +40%
+                            <br /> Оберег крита: +40%
+                            <br /> Броня головы: +80
+                            <br /> Оберег ответа противника: -35%
+                            <br />
+                            <br /><span style="font-size: 14px; color: gray">Дней между передачами: 20 </span>
+                        </p>
+                    </td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                        <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                            <br /><span style="font-weight:bold; color: blue">1 650 син. ст.</span>
+                        </p>
+                    </td>
+                </tr>
+
+
+                <tr style="height: 22px;">
+                    <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;" align="center">
+                        <img
+                            src="data:image/png;base64,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" />
+                        <br />
+                    </td>
+                    <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <span style="font-weight:bold;">Броня Древних</span>
+                            <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень: 7</span>
+                        </p>
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <br /> Ловкость: +25
+                            <br /> Сложение: +5
+                            <br /> Оберег удачи: +30%
+                            <br /> Оберег ответа: +90%
+                            <br /> Оберег крита: +70%
+                            <br /> Оберег уворота: +80%
+                            <br /> Броня корпуса: +80
+                            <br /> Оберег крита противника: -35%
+                            <br /> Оберег уворота противника: -15%
+                            <br />
+                            <br /><span style="font-size: 14px; color: gray">Дней между передачами: 20 </span>
+                        </p>
+                    </td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                        <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                            <br /><span style="font-weight:bold; color: blue">1 650 син. ст.</span>
+                        </p>
+                    </td>
+                </tr>
+
+                <tr style="height: 22px;">
+                    <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;" align="center">
+                        <img
+                            src="data:image/png;base64,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" />
+                        <br />
+                    </td>
+                    <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <span style="font-weight:bold;">Щит Древних</span>
+                            <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень: 7</span>
+                        </p>
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <br /> Сложение: +10
+                            <br /> берег удачи: +80%
+                            <br /> Оберег ответа: +60%
+                            <br /> Оберег крита: +40%
+                            <br /> Оберег уворота: +45%
+                            <br /> Броня ног: +80
+                            <br /> Броня левой руки: +80
+                            <br /> Броня правой руки: +80
+                            <br /> Оберег удачи противника: -35%
+                            <br /> Оберег уворота противника: -20%
+                            <br /> Урон 0-0
+                            <br />
+                            <br /><span style="font-size: 14px; color: gray">Дней между передачами: 20 </span>
+                        </p>
+                    </td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                        <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                            <br /><span style="font-weight:bold; color: blue">1 650 син. ст.</span>
+                        </p>
+                    </td>
+                </tr>
+
+                <tr style="height: 22px;">
+                    <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;" align="center">
+                        <img
+                            src="data:image/png;base64,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" />
+                        <br />
+                    </td>
+                    <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <span style="font-weight:bold;">Молот Древних</span>
+                            <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень: 7</span>
+                        </p>
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <br /> Сила: +25
+                            <br /> Удача: +25
+                            <br /> Оберег уворота: +25%
+                            <br /> Урон 80-100
+                            <br />
+                            <br /><span style="font-size: 14px; color: gray">Дней между передачами: 20 </span>
+                        </p>
+                    </td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                        <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                            <br /><span style="font-weight:bold; color: blue">1 650 син. ст.</span>
+                        </p>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+        <h3><a name="Artefact_3"><span style="font-family: Roboto; font-weight: bold; color: rgb(24, 50, 68); ">4.
+                    Артефакты
+                    (Кристаллы)</span></a></h3>
+
+
+        <table
+            style="font-family: Roboto; color: rgb(24, 50, 68); font-size: 16px; border-collapse: collapse; width: 100%; width: 60%;"
+            cellpadding="10" border="1">
+
+
+            <tbody>
+                <tr style="font-weight: bold; background: rgb(24, 50, 68); color: white;" align="center">
+                    <td style="width: 15%; border-width: 1px; border-style: solid;">Изображение</td>
+                    <td style="width: 30%; border-width: 1px; border-style: solid;">Описание</td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;">Стоимость</td>
+                </tr>
+
+                <tr style="height: 22px;">
+                    <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;" align="center">
+                        <img
+                            src="data:image/png;base64,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" />
+                        <br />
+                    </td>
+                    <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <span style="font-weight:bold;">Магический Кристалл</span>
+                            <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень: 0</span>
+                        </p>
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <br /> Существует: 30д
+                            <br />
+                            <br /><span style="font-size: 14px; color: gray">Передавать нельзя </span>
+                        </p>
+                    </td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                        <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                            <br /><span style="font-weight:bold; color: blue">100 син. ст.</span>
+                        </p>
+                    </td>
+                </tr>
+
+
+
+                <tr style="height: 22px;">
+                    <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;" align="center">
+                        <img
+                            src="data:image/png;base64,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" />
+                        <br />
+                    </td>
+                    <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <span style="font-weight:bold;">Кристалл интеллекта</span>
+                            <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень: 0</span>
+                        </p>
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <br /> Существует: 30д
+                            <br />
+                            <br /><span style="font-size: 14px; color: gray">Передавать нельзя </span>
+                        </p>
+                    </td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                        <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                            <br /><span style="font-weight:bold; color: blue">150 син. ст.</span>
+                        </p>
+                    </td>
+                </tr>
+
+                <tr style="height: 22px;">
+                    <td style="font-weight: bold; width: 15%;  border-width: 1px; border-style: solid;" align="center">
+                        <img
+                            src="data:image/png;base64,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" />
+                        <br />
+                    </td>
+                    <td style="width: 30%;  border-width: 1px; border-style: solid;" align="left">
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <span style="font-weight:bold;">Кристалл Путешественника</span>
+                            <br /><span style="font-size: 14px; color: rgb(0, 63, 94)"> Требуемый Уровень: 0</span>
+                        </p>
+                        <p
+                            style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px margin-top: 10px; margin-bottom: 10px">
+                            <br /> Существует: 30д
+                            <br />
+                            <br /><span style="font-size: 14px; color: gray">Передавать нельзя </span>
+                        </p>
+                    </td>
+                    <td style="width: 15%; border-width: 1px; border-style: solid;" align="left">
+                        <p style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px">Цена в магазине:
+                            <br /><span style="font-weight:bold; color: blue">150 син. ст.</span>
+                        </p>
+                    </td>
+                </tr>
+
+
+
+
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
